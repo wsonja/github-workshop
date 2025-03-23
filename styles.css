@@ -36,7 +36,7 @@ h1 {
   position: absolute;
   bottom: 20px;
   left: 60px;
-  font-size: 45px;
+  font-size: 72px;
 }
 
 .main-body {
@@ -49,12 +49,13 @@ h1 {
 h2 {
   padding-left: 60px;
   padding-top: 25px;
-  font-size: 35px;
+  font-size: 48px;
   margin-bottom: 0;
 }
 
 h4 {
   color: #F99D90;
+  font-size: 24px;
 }
 
 .row {
@@ -66,4 +67,92 @@ h4 {
 
 .col {
   margin-right: 20px;
+}
+
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+p{
+  font-size: 16px;
+}
+
+
+.container {
+  background-color: #9E122C;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.container p{
+  font-size: 32px;
+}
+.bio {
+  max-width: 50%;
+  color: #FBCB77;
+}
+.image-placeholder {
+  width: 400px;
+  height: 300px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  margin-right: 5%;
+}
+.content {
+  background-color: #FCECDF;
+  padding: 40px;
+}
+.projects {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  background: white;
+  padding: 4%;
+  border-radius: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.card p{
+  font-size: 24px;
+}
+
+.socials {
+  background-color: #FBCB77;
+  color: #9E122C;
+  padding: 40px;
+}
+.socials-list{
+  display: flex; /* Enables flexbox */
+  
+}
+
+.social-group {
+  display: flex; 
+  align-items: center; 
+  margin-right: 5%; 
+}
+
+.social-group p{
+  font-size: 32px;
+}
+
+.socials img {
+  width: 24px;
+  margin-left: 10px;
+}
+
+
+a :hover{
+  text-decoration: underline;
+  font-weight: bold;
 }
