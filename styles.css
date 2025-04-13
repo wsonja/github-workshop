@@ -32,11 +32,14 @@
 
 h1 {
   font-style: italic;
-  color: #9E122C;
-  position: absolute;
-  bottom: 20px;
-  left: 60px;
   font-size: 72px;
+}
+
+.home-h1 {
+  position: absolute !important;
+  bottom: 20px !important; 
+  left: 60px !important; 
+  color: #9E122C !important; 
 }
 
 .main-body {
@@ -47,10 +50,16 @@ h1 {
 }
 
 h2 {
-  padding-left: 60px;
-  padding-top: 25px;
+  
   font-size: 48px;
-  margin-bottom: 0;
+  
+}
+
+
+.home-h2 {
+  padding-left: 60px !important;
+  padding-top: 25px !important;
+  margin-bottom: 0 !important;
 }
 
 h4 {
@@ -83,6 +92,7 @@ p{
   background-color: #9E122C;
   color: white;
   padding: 40px;
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,6 +118,8 @@ p{
 .content {
   background-color: #FCECDF;
   padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 60px;
 }
 .projects {
   display: flex;
